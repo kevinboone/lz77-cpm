@@ -1,0 +1,14 @@
+*.out
+lz77
+*.o
+_*.asm
+tmp/
+*.COM
+*.H
+*.LIB
+*.H
+x00*
+foo
+*.swp
+*.MSG
+*.html
