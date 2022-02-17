@@ -1,0 +1,31 @@
+lz77: a file compressor/decompressor for CP/M, compatible with Linux
+====================================================================
+
+"lz77" is a file compressor and decompressor that uses the Lempel-Ziv 1977
+algorithm. A Linux version is available that is (almost) fully inter-operable
+with the CP/M version. Thus, files can be compressed on Linux, an then
+decompressed on CP/M. 
+
+"lz77cat" uncompresses a file directly to the console, with 
+a rudimentary paging facility.
+
+Example
+-------
+
+To compress "foo.txt" to "foo.lz7"
+
+    A> lz77 /C /I foo.txt /O foo.lz7
+
+To decompress:
+
+    A> lz77 /D /I foo.lz7 /O foo.txt
+
+To view the compressed file on the console:
+
+   A> lz77cat foo.lz7
+
+Author
+------
+lz77 is maintained by Kevin Boone, and is distributed under the terms of the
+GNU public licence, v3.0.
+
